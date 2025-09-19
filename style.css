@@ -1,0 +1,13 @@
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
